@@ -2,10 +2,9 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
 <title>WEB</title>
 <link rel="stylesheet" href="page.css">
-</head>
-<body>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
-.img
+	.img
 {
 	display: inline-block;
 }
@@ -117,7 +116,99 @@ a
 #end{
 	height: 300px;
 }
+@media only screen and (min-width: 300px) and (max-width: 600px) {
+    .hh
+	{
+		float: none !important;
+		max-width: 100%;
+		margin-bottom: 30px;
+		font-size: 11px !important;
+	}
+	.endpage
+	{
+	font-size: 14px !important;
+	float: left !important;
+	}
+	#title3b
+	{
+	margin: 0px 0px 0px 0px;
+	}
+	.img
+	{
+		max-width: 300px !important;
+		max-height:200px !important;
+		float: left;
+	}
+	.title
+	{
+		max-width: 72%;
+		display: block !important;
+	}
+	.container
+	{
+		max-width: 100%;
+		background-color:white !important;
+		float: left !important;
+	}
+	.img
+	{
+		float: left;
+		display: block;
+		margin: 0px 0px 0px 0px;
+	}
+	.footer
+	{
+		float: none;
+		display: inline-table;
+	}
+	body
+	{
+		float: none !important; 
+	}
+	.whatnew-img
+	{
+		max-width: 70px;
+		max-height : 50px;
+	}
+	.text4
+	{
+		font-size: 10px !important;
+		float:right !important;
+		text-align: center;
+	}
+	.text4
+	{
+		font-size: 60%;
+		float: right !important;
+		display: inline-block !important;
+		margin: 0px !important;
+		line-height: 15px;
+	}
+	#whatnew
+	{
+		width: 100%;
+	}
+	.weddesign
+	{
+	text-decoration: none;
+	color: red;
+	font-size: 5px !important;
+	font-weight: 500px;
+	font-family: Helvetica;
+	}
+	.january
+	{
+		font-size: 60% !important;
+	}
+	.icons
+	{
+		max-height: 40px;
+	}
+  
+}
 </style>
+</head>
+<body>
 <div class="header">
 <div id="continer">
 		<div class="head">
@@ -147,7 +238,7 @@ a
 <div id="center">
 	<div id="continer">
 	<div>
-		<p style="font-family: Helvetica ; font-size: 36px; font-weight: bold; margin-top: 150px; text-align: center;">I'm a Graphic /Web Designer based in Philippines	</p>
+		<p style="font-family: Helvetica ; font-size: 36px; font-weight: bold; margin-top: 150px; text-align: center;">I'm a Graphic /Web Designer based in Philippines	</p> 
 		<p style="font-family: Helvetica ; font-size: 16px; font-weight:500; margin-top: 50px; text-align: center;">This is Photoshop's version of Lorem Ipsum. Proin gravida nibh vel auctor aliquet<br> .Aenean sollicitudin, lorem quis bibendum autor, nisi elit consequat ipsum, nec sagittis sem nibh id elit</p>
 	</div>
 	<div style="text-align: center;">
@@ -160,7 +251,7 @@ a
 	<div>
 		<p style="font-size: 30px; font-family: Helvetica ; font-weight:bold ; margin-top:50px; ">My Laster Project</p>
 	</div>
-<div>
+<div class="title3b">
 	<div class="img" style="height: 335px;"> 
 	<img src="https://scontent.fhan5-2.fna.fbcdn.net/v/t1.0-9/61214828_132779324566547_2073788666399948800_n.jpg?_nc_cat=110&_nc_oc=AQlwB66YtzTmc2MIqLLcq9RnfAyESBiO3igcTebp2ddIUbYktdqeTzanTktMBzEd4Ww&_nc_ht=scontent.fhan5-2.fna&oh=9c2d734a47f73dcdd5fbbfab6da9e633&oe=5DB80D14" alt="anh1" style="width: 300px; height: 200px; margin-top: 50px;">
 	<p style="font-size: 18px; font-family: Helvetica ; font-weight:bold ;margin-left: 80px; margin-top:20px;">1.WD.TV Project</p>
@@ -193,7 +284,7 @@ a
 				Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non<br>mauris vitae erat consequat auctor eu in elit. Class aptent taciti<br>sociosqu ad litora torquent per conubia nostra, per inceptos hime-<br>naeos. Mauris in erat justo. Nullam ac urna eu felis dapibus condi-<br>mentum sit amet a augue.
 			</p>
 			</div>
-			<div style="margin: 50px 0px 67px 0px;">
+			<div class="icons" style="margin: 50px 0px 67px 0px;">
 				<a href="file:///D:/Work/DUAN1/web2.html#"><img src="https://image.flaticon.com/icons/svg/54/54422.svg" style="width: 40px; height: 45px;"></a>
 				<a style="margin: 0px 10px 0px 10px " href="file:///D:/Work/DUAN1/web2.html#"><img src="https://image.flaticon.com/icons/svg/54/54879.svg" style="width: 40px; height: 45px;"></a>
 				<a href="file:///D:/Work/DUAN1/web2.html#"><img src="https://cdn0.iconfinder.com/data/icons/devices-icons-rounded/110/Wifi-256.png" style="width: 40px; height: 45px;"></a>
@@ -206,10 +297,10 @@ a
 				</div>
 				<div style=" margin-top: 50px;">
 					<div style="display: inline-block;">
-					<img src="https://image.shutterstock.com/image-vector/logo-eye-lorem-ipsum-beauty-260nw-506712292.jpg" style="width: 150px; height: 100px;">
+					<img class="whatnew-img" src="https://image.shutterstock.com/image-vector/logo-eye-lorem-ipsum-beauty-260nw-506712292.jpg" style="width: 150px; height: 100px;">
 					</div>
 					<div style="display: inline-block; margin: 0px 0px 0px 30px; float: right; ">
-						<a href="file:///D:/Work/DUAN1/web2.html#" class="text4">This is Photoshop's version of<br> Lorem Ipsum</a>
+						<a  href="file:///D:/Work/DUAN1/web2.html#" class="text4">This is Photoshop's version of<br> Lorem Ipsum</a>
 						<p><a href="file:///D:/Work/DUAN1/web2.html#"><span class="weddesign">Wed Design</span></a><span class="January"> - January 28,2013 - </span><a href="file:///D:/Work/DUAN1/web2.html#"><span class="weddesign">Admin</span></a></p>
 					</div>
 				</div>
@@ -217,7 +308,7 @@ a
 			<hr style="margin-top: 50px;">
 				<div style=" margin: 30px 0px 90px 0px;">
 					<div style="display: inline-block;">
-					<img src="https://image.shutterstock.com/image-vector/logo-eye-lorem-ipsum-beauty-260nw-506712292.jpg" style="width: 150px; height: 100px;">
+					<img class="whatnew-img" src="https://image.shutterstock.com/image-vector/logo-eye-lorem-ipsum-beauty-260nw-506712292.jpg" style="width: 150px; height: 100px;">
 					</div>
 					<div style="display: inline-block; margin: 0px 0px 0px 30px; float: right; ">
 						<a href="file:///D:/Work/DUAN1/web2.html#" class="text4">This is Photoshop's version of<br> Lorem Ipsum</a>
