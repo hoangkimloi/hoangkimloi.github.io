@@ -9,6 +9,7 @@
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
   <script src="https://kit.fontawesome.com/2e9e695fdc.js"></script> 
 
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -167,9 +168,10 @@ a{
   padding: 0
 }
 .status{
-  background-color: #CCD0D5;
+  background-color: #DADDE1;
   font-family: inherit;
   text-align: center;
+  border-bottom: 0 solid #212529;
 
 }
 .sta{
@@ -178,12 +180,9 @@ a{
   padding-left: 20px;
 }
 .thinking{
-  width: 600px;
+  width: 706px;
   height: 55px;
   background-color: #fff;
-}
-.center{
-  margin-right: 500px;
 }
 .view{
   margin-top: 15px;
@@ -191,9 +190,19 @@ a{
 .online{
   height: auto;
   border-left: 1px solid black;
+  margin-top: 300px;
 }
 .container{
   padding: 0;
+}
+.thumbnail{
+  padding: 15px;
+}
+.think{
+  background-color: #fff;
+}
+.post-status{
+  background-color: #fff;
 }
     </style>
   </head>
@@ -286,26 +295,50 @@ a{
           <div class="container">
             <div class="col-sm-4 conten ">
               <div class="about">
-                <i style="font-size: 22px;background-color:#4267b2;border-radius: 50%;" class="fas fa-globe-americas"></i>
-                <span style="font-size: 20px;"> 
-                  Giới Thiệu
-                </span>
-                <hr>
-                <i class="far fa-comment-alt" style="font-size: 30px; margin-left: 160px;"></i>
-                <div style="font-size: 13px;" class="text-muted text-center">
-                  <p class="mt-3 ">Thêm tiểu sử ngắn để cho mọi người biết thêm về bản thân bạn.</p>
-                  <a style="color: blue;" href="#">Thêm tiểu sử</a>
+                <div style="padding: 15px;">
+                  <i style="font-size: 22px;background-color:#4267b2;border-radius: 50%;" class="fas fa-globe-americas"></i>
+                  <span style="font-size: 20px;"> 
+                    Giới Thiệu
+                  </span>
+                  <hr>
+                  <i class="far fa-comment-alt" style="font-size: 30px; margin-left: 160px;"></i>
+                  <div style="font-size: 13px;" class="text-muted text-center">
+                    <p class="mt-3 ">Thêm tiểu sử ngắn để cho mọi người biết thêm về bản thân bạn.</p>
+                    <a style="color: blue;" href="#">Thêm tiểu sử</a>
+                  </div>
+                  <hr>
+                  <div style="font-size: 13px;" >
+                    <i class="fas fa-graduation-cap"></i>
+                    <span  class="mt-3 text-muted text-left">Đã học tại</span><a style="color: blue;" href="#"> THPT Nhị Chiểu</a>
+                  </div>
+                  <div style="font-size: 13px;" >
+                    <i class="fas fa-home"></i>
+                    <span  class="mt-3 text-muted text-left">Sống Tại</span> <a style="color: blue;" href="#">Hải Dương</a>
+                  </div>
                 </div>
                 <hr>
-                <div style="font-size: 13px;" >
-                  <i class="fas fa-graduation-cap"></i>
-                  <span  class="mt-3 text-muted text-left">Đã học tại</span><a style="color: blue;" href="#"> THPT Nhị Chiểu</a>
-                </div>
-                <div style="font-size: 13px;" >
-                  <i class="fas fa-home"></i>
-                  <span  class="mt-3 text-muted text-left">Sống Tại</span> <a style="color: blue;" href="#">Hải Dương</a>
-                </div>
-                <hr>
+              </div>
+
+              <div class="picture">
+                <a href="#" class="thumbnail">
+                  <i style="font-size: 22px;background-color:green;" class="fas fa-image"></i>
+                  <span style="font-size: 20px;color:blue; margin-left: 3px;"> 
+                    Ảnh
+                  </span>
+                  <hr>
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+
+
+                </a>
+
               </div>
               <div class="picture">
                 <a href="#" class="thumbnail">
@@ -314,42 +347,20 @@ a{
                     Ảnh
                   </span>
                   <hr>
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height:120px;display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height:120px;display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height:120px;display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
+                  <img style="width: 115px;height: 115px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
 
 
                 </a>
 
               </div>
-              <div class="picture">
-                <a href="#" class="thumbnail">
-                  <i style="font-size: 22px;background-color:green;" class="fas fa-image"></i>
-                  <span style="font-size: 20px;color:blue; margin-left: 3px;"> 
-                    Bạn bè
-                  </span>
-                  <hr>
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height:120px;display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height:120px;display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height: 120px; display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-                  <img style="width: 120px;height:120px;display: inline;" src="https://scontent.fhan5-3.fna.fbcdn.net/v/t1.0-9/67661118_2425582604384873_4937906750406787072_n.jpg?_nc_cat=106&_nc_oc=AQkXTrRyDRd_CGY0n2IpBhYFeDOkEGsXU3PsZJh4nbfWtK6vqlzbaYRUnj_I7jgeBqI&_nc_ht=scontent.fhan5-3.fna&oh=c4b1814bde0b67cc48a2260bf4083427&oe=5DDEF618" alt="...">
-
-
-                </a>
-
-              </div>
-
               <div style="background-color: #fff;height: 50px;">
                 <span> Tiếng việt</span>
                 <a href="#" style="color: blue;">
@@ -369,276 +380,284 @@ a{
               <
             </div>
             <div class="col-sm-8 sta">
+              <div class="think">
               <div class="status">
-                <a href="#">
-                  <i style="color: black;font-size: 20px;" class="fas fa-pen"></i>
-                  <span style="color: black;font-size: 20px;">Tạo bài viết</span>
-                </a>
-                <a href="#">
-                  <i style="color: black;font-size: 20px;" class="fas fa-camera"></i>
-                  <span style="color: black;font-size: 20px;">Anh/Video</span>
-                </a>
-                <a href="#">
-                  <i style="color: black;font-size: 20px;" class="fas fa-video"></i>
-                  <span style="color: black;font-size: 20px;">Video trực tiếp</span>
-                </a>
-                <a href="#">
-                 <i style="color: black; font-size: 20px;" class="fas fa-flag"></i>
-                 <span style="color: black;font-size: 20px;">Sự kiện trong đời</span>
-               </a>
-               <div class="think">
-                 <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px" alt="" title="">
-                 <input type="text" name="think" class="thinking" placeholder="Bạn đang nghĩ gì?">
-                 <hr>
-                 <button style="border-radius: 20px;background-color:#CCCCCC;width: 160px;height: 35px;">
-                   <i style="font-size: 20px;" class="fas fa-image"></i>
-                   <span style="font-size: 16px;">Ảnh/Video</span>
-                 </button>
-                 <button style="border-radius: 20px;background-color:#CCCCCC;width: 160px;height: 35px;">
-                   <i style="font-size: 20px;" class="fas fa-user-tag"></i>
-                   <span style="font-size: 16px;">Gắn thẻ bạn bè</span>
-                 </button>
-                 <button style="border-radius: 20px;background-color:#CCCCCC;width: 160px;height: 35px;">
-                   <i style="font-size: 20px;" class="far fa-smile"></i>
-                   <span style="font-size: 16px;">Cảm xúc/Ho...</span>
-                 </button>
-                 <button style="border-radius: 20px;background-color:#CCCCCC;width: 80px;height: 35px;">
-                   <span style="font-size: 20px;">...</span>
-                 </button>
-               </div>
-               <div class="view">
-                <span>Bài viết</span>
-                <button>
-                  <i style="margin-left: 5px;" class="fas fa-tasks"></i>
-                  <span>Quản lý bài viết</span>
-                </button>
-                <button style="margin-left: 10px;">
-                  <i class="fas fa-list"></i>
-                  <span> Chế độ xem danh sách</span>
-                </button>
-                <button style="margin-right: 3px;">
-                  <i class="fas fa-th-large"></i>
-                  <span> Chế độ xem danh sách</span>
-                </button>
-                <br>
-              </div>
-              <div class="center">
+               <div style="border-radius: 1px solid black; background-color: "  class="col-xl-6  mt-4 bg-white ml-3  pt-1 ">
+                <div >
+                  <button style="font-size: 16px;width:180px;border-right " class="btn btn-outline-light text-dark font-weight-bold mt-0 btn-sm  ">
+                    <i class="fas fa-pencil-alt"></i> Tạo Bài Viết
+                  </button>|
+                  <button style="font-size: 16px;width:180px;border-right: 0 solid black;" class="btn btn-outline-light text-dark font-weight-bold ml-2  ">
+                    <i class="fas fa-camera"></i> Ảnh/video
 
-                <br>
-                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px;" alt="" title="">
-                <div style="display: inline-block;margin: 10px 0 0 5px;">
-                  <a href="#" style="color: blue;">
-                    <span style="display: block;">Hoàng Kim Lợi</span>
-                    <span style="color: black; margin-top: 3px;">8 giờ</span>
-                    <button>
-                      <i class="fas fa-lock" style="color: black;"></i>
-                    </button>
-                  </a>
-                </div>
-                <div>
-                  <img style="margin-left: 20px;" src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/67812340_2423492331260567_528313730828599296_n.jpg?_nc_cat=102&_nc_oc=AQlsSWChh23YmvKgTmhQgWiL8hMJoB1P7n9BPZv_a54ez1UFh1EX4VyZrHfN7TQISOs&_nc_ht=scontent.fhan5-6.fna&oh=b3906e1a7ad5cd2c41641cd0f659556a&oe=5DE225E8">
-                </div>
-                <div style="width: 720px;">
-                  <button style="width: 230px;height: 41px;margin-left: 12px;">
-                    <i class="far fa-thumbs-up"></i>
-                    Thích
+                  </button>|
+                  <button  style="font-size: 16px;width:180px;border-right: 0 solid black;" class="btn btn-outline-light text-dark font-weight-bold  ml-2 ">
+                    <i class="fas fa-video"></i> Video trực tiếp
+
+                  </button>|
+                  <button  style="font-size: 16px;width:180px;" class="btn btn-outline-light  text-dark font-weight-bold  ml-2 "> 
+                    <i class="fas fa-flag"></i> Sự kiện trong đời
                   </button>
-                  <button style="width: 230px;height: 41px;">
-                    <i class="far fa-comment-alt"></i>
-                    Bình Luận
-                  </button>
-                  <button style="width: 234px;height: 41px;">
-                    <i class="fas fa-share"></i>
-                    Chia Sẻ
-                  </button>
-                  <div style="margin: 5px 100px 0 0;">
-                   <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px;" alt="" title="">
-                   <input style="width: 400px;height: 40px;border-radius: 20px;" type="text" name="" placeholder="Bình Luận">
-                   <button>
-                    <i class="far fa-smile"></i>
-                  </button>
-                  <button>
-                    <i class="fas fa-camera"></i>
-                  </button>
-                  <button>
-                   <i class="fab fa-git-square"></i>
-                 </button>
-                 <button>
-                  <i class="far fa-sticky-note"></i>
-                </button>
+                </div> 
               </div>
             </div>
+            <br>
+             <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px" alt="" title="">
+             <input  type="text" name="think" class="thinking" placeholder="Bạn đang nghĩ gì?">
+             <hr>
+             <div style="margin-left: " class="mt-3 ">
+            <button style="font-size: 13px; border-radius: 20px;width: 141px;" class="btn btn-lg btn-outline-gray text-dark font-weight-bold" >
+            <i class="fas fa-images"></i> Ảnh/Video
+          </button>
+             <button style="font-size: 13px; border-radius: 20px;width: 241px; "  class="btn btn-lg btn-outline-gray text-dark font-weight-bold ml-3" >
+             <img style="width: 20px; height: 20px;" src="https://image.flaticon.com/icons/svg/1250/1250366.svg"> Gắn thẻ bạn bè
+           </button>
+             <button style="font-size: 13px; border-radius: 20px;width: 241px; "  class="btn btn-lg btn-outline-gray text-dark font-weight-bold ml-3" >
+             <img style="width: 20px; height: 20px;" src="https://png.pngtree.com/svg/20170330/laugh_1347683.png"> Cảm xúc/hoặc...
+           </button>
+             <button style="font-size: 13px; border-radius: 20px; "  class="btn btn-lg btn-outline-gray text-dark font-weight-bold ml-3" >
+             <i class="fas fa-ellipsis-h"></i>
+           </button>
           </div>
-           <div class="center">
-
-                <br>
-                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px;" alt="" title="">
-                <div style="display: inline-block;margin: 10px 0 0 5px;">
-                  <a href="#" style="color: blue;">
-                    <span style="display: block;">Hoàng Kim Lợi</span>
-                    <span style="color: black; margin-top: 3px;">8 giờ</span>
-                    <button>
-                      <i class="fas fa-lock" style="color: black;"></i>
-                    </button>
-                  </a>
-                </div>
-                <div>
-                  <img style="margin-left: 20px;" src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/67812340_2423492331260567_528313730828599296_n.jpg?_nc_cat=102&_nc_oc=AQlsSWChh23YmvKgTmhQgWiL8hMJoB1P7n9BPZv_a54ez1UFh1EX4VyZrHfN7TQISOs&_nc_ht=scontent.fhan5-6.fna&oh=b3906e1a7ad5cd2c41641cd0f659556a&oe=5DE225E8">
-                </div>
-                <div style="width: 720px;">
-                  <button style="width: 230px;height: 41px;margin-left: 12px;">
-                    <i class="far fa-thumbs-up"></i>
-                    Thích
+           </div>
+           <div class="view">
+            <span>Bài viết</span>
+            <button  style="font-size: 14px; margin-left: 30px; width: 220px;" class="btn btn-light text-dark font-weight-bold  ">
+                    <i class="fas fa-bars"></i> <span>Quản lý bài viết</span>
                   </button>
-                  <button style="width: 230px;height: 41px;">
-                    <i class="far fa-comment-alt"></i>
-                    Bình Luận
+                  <button  style="font-size: 14px;margin-left: 10px;width: 220px;" class="btn btn-light text-dark font-weight-bold">
+                  <i class="fas fa-users-cog"></i>  Chế độ xem danh sách
                   </button>
-                  <button style="width: 234px;height: 41px;">
-                    <i class="fas fa-share"></i>
-                    Chia Sẻ
+                  <button  style="font-size: 14px;width: 220px;" class="btn btn-light text-dark font-weight-bold ml-1 ">
+                    <i class="fas fa-th-list"></i> Chế độ xem lưới
                   </button>
-                  <div style="margin: 5px 100px 0 0;">
-                   <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px;" alt="" title="">
-                   <input style="width: 400px;height: 40px;border-radius: 20px;" type="text" name="" placeholder="Bình Luận">
-                   <button>
-                    <i class="far fa-smile"></i>
-                  </button>
-                  <button>
-                    <i class="fas fa-camera"></i>
-                  </button>
-                  <button>
-                   <i class="fab fa-git-square"></i>
-                 </button>
-                 <button>
-                  <i class="far fa-sticky-note"></i>
-                </button>
-              </div>
+          </div>
+          <div class="post-status">
+            <div class="po" style="display: inline;">
+              <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px" alt="" title="">
+               <a href="#" style="font-size: 15px;" class="font-weight-bold text-info mt-5">Hoàng Kim Lợi</a>
+            <span class="d-block" style="font-size: 14px;display: block;margin-left: 60px;">
+            <a class="text-muted" href="#">20 tháng 7 lúc 14:49</a> 
+            <i class="fas fa-user-friends">
+            </i>
+            </span>
+            <p style="font-size: 15px;" class="ml-5 mt-4">Tôi Và Anh Tôi
+            </p>
+            <img style= "width: 760px;" class="mt-2 col-xl-12 mr-3 " src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/40325476_2650508205173304_8349300755659751424_n.jpg?_nc_cat=110&_nc_oc=AQlWqjYHmuAvF_ZRs3K9TGsxQWuJswY-ooy4fXtAtUwRbyaONTBWrFPwCPSefirCZ_8&_nc_ht=scontent.fhan5-6.fna&oh=7b18a6c2621aa603520841fd0baa6e63&oe=5DE66A47">
+            <div style="font-size: 18px;" class="ml-3 mt-2">
+            <i class="fas fa-thumbs-up ml-3"></i>
+            <i class="far fa-laugh-squint"></i>
+            <a style="font-size: 15px;" class="text-muted" href="#">Bạn và 10k người khác thích điều này</a>
+            <a style="font-size: 14px;" class="text-muted float-right mr-5" href="#">6 Comment</a>
             </div>
-          </div>
-           <div class="center">
-
-                <br>
-                <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px;" alt="" title="">
-                <div style="display: inline-block;margin: 10px 0 0 5px;">
-                  <a href="#" style="color: blue;">
-                    <span style="display: block;">Hoàng Kim Lợi</span>
-                    <span style="color: black; margin-top: 3px;">8 giờ</span>
-                    <button>
-                      <i class="fas fa-lock" style="color: black;"></i>
-                    </button>
-                  </a>
-                </div>
-                <div>
-                  <img style="margin-left: 20px;" src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/67812340_2423492331260567_528313730828599296_n.jpg?_nc_cat=102&_nc_oc=AQlsSWChh23YmvKgTmhQgWiL8hMJoB1P7n9BPZv_a54ez1UFh1EX4VyZrHfN7TQISOs&_nc_ht=scontent.fhan5-6.fna&oh=b3906e1a7ad5cd2c41641cd0f659556a&oe=5DE225E8">
-                </div>
-                <div style="width: 720px;">
-                  <button style="width: 230px;height: 41px;margin-left: 12px;">
-                    <i class="far fa-thumbs-up"></i>
-                    Thích
-                  </button>
-                  <button style="width: 230px;height: 41px;">
-                    <i class="far fa-comment-alt"></i>
-                    Bình Luận
-                  </button>
-                  <button style="width: 234px;height: 41px;">
-                    <i class="fas fa-share"></i>
-                    Chia Sẻ
-                  </button>
-                  <div style="margin: 5px 100px 0 0;">
-                   <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px;" alt="" title="">
-                   <input style="width: 400px;height: 40px;border-radius: 20px;" type="text" name="" placeholder="Bình Luận">
-                   <button>
-                    <i class="far fa-smile"></i>
-                  </button>
-                  <button>
-                    <i class="fas fa-camera"></i>
-                  </button>
-                  <button>
-                   <i class="fab fa-git-square"></i>
-                 </button>
-                 <button>
-                  <i class="far fa-sticky-note"></i>
-                </button>
-              </div>
             </div>
+            <div class="col-lg-12 bg-light no-gutter"  style="background-color: #fff;">
+                    <a href="#" style="font-size: 15px;border-radius: 0 solid black;" class=" text-muted btn btn-light font-weight-bold  pl-3 pr-3 col-lg-3   ">
+                    <i class="far fa-thumbs-up"></i>
+                     Thích
+                   </a> 
+                   <a style="font-size: 15px;border-radius: 0 solid black;" class=" text-muted btn btn-light font-weight-bold pl-3 pr-3 col-lg-4 ml-4 mr-4">
+                   <i class="far fa-comment-alt "></i> Bình luận
+                   </a> 
+                    <a style="font-size: 15px;border-radius: 0 solid black;" class="text-muted btn btn-light font-weight-bold pl-3 pr-3  col-lg-4">
+                    <i class="fas fa-share"></i>
+                     Chia Sẻ
+                   </a>  
+              </div>
+
+            
+          </div>
+          <div class="post-status">
+            <div class="po" style="display: inline;">
+              <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px" alt="" title="">
+               <a href="#" style="font-size: 15px;" class="font-weight-bold text-info mt-5">Hoàng Kim Lợi</a>
+            <span class="d-block" style="font-size: 14px;display: block;margin-left: 60px;">
+            <a class="text-muted" href="#">20 tháng 7 lúc 14:49</a> 
+            <i class="fas fa-user-friends">
+            </i>
+            </span>
+            <p style="font-size: 15px;" class="ml-5 mt-4">Tôi Và Anh Tôi
+            </p>
+            <img style= "width: 760px;" class="mt-2 col-xl-12 mr-3 " src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/40325476_2650508205173304_8349300755659751424_n.jpg?_nc_cat=110&_nc_oc=AQlWqjYHmuAvF_ZRs3K9TGsxQWuJswY-ooy4fXtAtUwRbyaONTBWrFPwCPSefirCZ_8&_nc_ht=scontent.fhan5-6.fna&oh=7b18a6c2621aa603520841fd0baa6e63&oe=5DE66A47">
+            <div style="font-size: 18px;" class="ml-3 mt-2">
+            <i class="fas fa-thumbs-up ml-3"></i>
+            <i class="far fa-laugh-squint"></i>
+            <a style="font-size: 15px;" class="text-muted" href="#">Bạn và 10k người khác thích điều này</a>
+            <a style="font-size: 14px;" class="text-muted float-right mr-5" href="#">6 Comment</a>
+            </div>
+            </div>
+            <div class="col-lg-12 bg-light no-gutter"  style="background-color: #fff;">
+                    <a href="#" style="font-size: 15px;border-radius: 0 solid black;" class=" text-muted btn btn-light font-weight-bold  pl-3 pr-3 col-lg-3   ">
+                    <i class="far fa-thumbs-up"></i>
+                     Thích
+                   </a> 
+                   <a style="font-size: 15px;border-radius: 0 solid black;" class=" text-muted btn btn-light font-weight-bold pl-3 pr-3 col-lg-4 ml-4 mr-4">
+                   <i class="far fa-comment-alt "></i> Bình luận
+                   </a> 
+                    <a style="font-size: 15px;border-radius: 0 solid black;" class="text-muted btn btn-light font-weight-bold pl-3 pr-3  col-lg-4">
+                    <i class="fas fa-share"></i>
+                     Chia Sẻ
+                   </a>  
+              </div>
+              <div class="d-inline ml-5" style="display: inline;">
+                          <img class="rounded-circle " style="height: 40px; width: 40px; border-radius: 50%;display: inline;" src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/57064188_2347021192241015_4977603767324114944_n.jpg?_nc_cat=103&_nc_oc=AQm_5NhOWMROEj0Gz-ZGiIfG55w5C4SNtnk81JslUG-Kk-7lVM8utf2q8MSvuoYwfzA&_nc_ht=scontent.fhan5-7.fna&oh=0e3eff7ab5330f55c4d92ab392c29b75&oe=5DA2BE32">
+                          </div>
+                            <div class="d-inline  mt-5 ml-3 pt-2 pb-2 pl-3 pr-3"  
+                            style="border-radius: 18px; font-size: 13px; background-color: #e9ebee;display: inline;">
+                                <div class="d-inline"style="display: inline;">
+                                <a href="#" class="text-primary font-weight-bold ">Nhung Mèoo</a>
+                                <span class="text-dark">yêu <3</span>
+                                </div>
+                            </div>
+                            <div style="font-size: 13px;display: block;margin-left: 50px;">
+                              <a href="#" style="display: inline;color: blue;">Thích</a>
+                              <a href="#" style="display: inline;color: blue;"> Trả lời</a>
+                            </div>
+
+            
+          </div>
+          <div class="post-status">
+            <div class="po" style="display: inline;">
+              <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 50px;height: 50px" alt="" title="">
+               <a href="#" style="font-size: 15px;" class="font-weight-bold text-info mt-5">Hoàng Kim Lợi</a>
+            <span class="d-block" style="font-size: 14px;display: block;margin-left: 60px;">
+            <a class="text-muted" href="#">20 tháng 7 lúc 14:49</a> 
+            <i class="fas fa-user-friends">
+            </i>
+            </span>
+            <p style="font-size: 15px;" class="ml-5 mt-4">Tôi Và Anh Tôi
+            </p>
+            <img style= "width: 760px;" class="mt-2 col-xl-12 mr-3 " src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/40325476_2650508205173304_8349300755659751424_n.jpg?_nc_cat=110&_nc_oc=AQlWqjYHmuAvF_ZRs3K9TGsxQWuJswY-ooy4fXtAtUwRbyaONTBWrFPwCPSefirCZ_8&_nc_ht=scontent.fhan5-6.fna&oh=7b18a6c2621aa603520841fd0baa6e63&oe=5DE66A47">
+            <div style="font-size: 18px;" class="ml-3 mt-2">
+            <i class="fas fa-thumbs-up ml-3"></i>
+            <i class="far fa-laugh-squint"></i>
+            <a style="font-size: 15px;" class="text-muted" href="#">Bạn và 10k người khác thích điều này</a>
+            <a style="font-size: 14px;" class="text-muted float-right mr-5" href="#">6 Comment</a>
+            </div>
+            </div>
+            <div class="col-lg-12 bg-light no-gutter"  style="background-color: #fff;">
+                    <a href="#" style="font-size: 15px;border-radius: 0 solid black;" class=" text-muted btn btn-light font-weight-bold  pl-3 pr-3 col-lg-3   ">
+                    <i class="far fa-thumbs-up"></i>
+                     Thích
+                   </a> 
+                   <a style="font-size: 15px;border-radius: 0 solid black;" class=" text-muted btn btn-light font-weight-bold pl-3 pr-3 col-lg-4 ml-4 mr-4">
+                   <i class="far fa-comment-alt "></i> Bình luận
+                   </a> 
+                    <a style="font-size: 15px;border-radius: 0 solid black;" class="text-muted btn btn-light font-weight-bold pl-3 pr-3  col-lg-4">
+                    <i class="fas fa-share"></i>
+                     Chia Sẻ
+                   </a>  
+              </div>
+              <div class="d-inline ml-5" style="display: inline;">
+                          <img class="rounded-circle " style="height: 40px; width: 40px; border-radius: 50%;display: inline;" src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/57064188_2347021192241015_4977603767324114944_n.jpg?_nc_cat=103&_nc_oc=AQm_5NhOWMROEj0Gz-ZGiIfG55w5C4SNtnk81JslUG-Kk-7lVM8utf2q8MSvuoYwfzA&_nc_ht=scontent.fhan5-7.fna&oh=0e3eff7ab5330f55c4d92ab392c29b75&oe=5DA2BE32">
+                          </div>
+                            <div class="d-inline  mt-5 ml-3 pt-2 pb-2 pl-3 pr-3"  
+                            style="border-radius: 18px; font-size: 13px; background-color: #e9ebee;display: inline;">
+                                <div class="d-inline"style="display: inline;">
+                                <a href="#" class="text-primary font-weight-bold ">Nhung Mèoo</a>
+                                <span class="text-dark">yêu <3</span>
+                                </div>
+                            </div>
+                            <div style="font-size: 13px;display: block;margin-left: 50px;">
+                              <a href="#" style="display: inline;color: blue;">Thích</a>
+                              <a href="#" style="display: inline;color: blue;"> Trả lời</a>
+                            </div>
+                            <div class="d-inline ml-5" style="display: inline;">
+                          <img class="rounded-circle " style="height: 40px; width: 40px; border-radius: 50%;display: inline;" src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.15752-9/58033199_335480193804381_3475712008093958144_n.jpg?_nc_cat=109&_nc_oc=AQlHrxPwiuFMzUR-hnCuX_ARQjP_pFGniRRGNjh_EKChNPjfLvedyprV_H0TO-MEeCQ&_nc_ht=scontent.fhan5-7.fna&oh=ac21d02f340fc412c6a1f8c5aa07b0f6&oe=5DD71595">
+                          </div>
+                            <div class="d-inline  mt-5 ml-3 pt-2 pb-2 pl-3 pr-3"  
+                            style="border-radius: 18px; font-size: 13px; background-color: #e9ebee;display: inline;">
+                                <div class="d-inline"style="display: inline;">
+                                <a href="#" class="text-primary font-weight-bold ">Hoàng Kim Lợi</a>
+                                <span class="text-dark">yêu <3</span>
+                                <img style="width: 100px;height: 100px; display: block; margin-left: 50px;" src="https://scontent.fhan5-7.fna.fbcdn.net/v/t1.0-9/57064188_2347021192241015_4977603767324114944_n.jpg?_nc_cat=103&_nc_oc=AQm_5NhOWMROEj0Gz-ZGiIfG55w5C4SNtnk81JslUG-Kk-7lVM8utf2q8MSvuoYwfzA&_nc_ht=scontent.fhan5-7.fna&oh=0e3eff7ab5330f55c4d92ab392c29b75&oe=5DA2BE32">
+                                </div>
+                            </div>
+                            <div style="font-size: 13px;display: block;margin-left: 50px;">
+                              <a href="#" style="display: inline;color: blue;">Thích</a>
+                              <a href="#" style="display: inline;color: blue;"> Trả lời</a>
+                            </div>
+
+            
           </div>
 
 
 
-        </div>
 
-      </div>
+</div>
 
-    </div>
+</div>
 
+</div>
+<div class="col-sm-2 online">
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
   </div>
-  <div class="col-sm-2 online">
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
-</div>
-<div>
-  <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
-  <span style="font-size: 18px;"> Hoàng Kim Lợi
-    <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
-  </span>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+  <div>
+    <img src="https://scontent.fhan5-6.fna.fbcdn.net/v/t1.0-9/57972775_2347021198907681_4889463298879127552_n.jpg?_nc_cat=107&_nc_oc=AQknCeY-981fcShgiNV1iZuX80MP1bVUYDLTX2fLVwgzqeqXnftblvfsrrhvzFHIiLo&_nc_ht=scontent.fhan5-6.fna&oh=629abd370d2cd37086de6f08802b254f&oe=5DAB63F4" style="border-radius: 50%; width: 40px;height: 40px;" alt="" title="">
+    <span style="font-size: 18px;"> Hoàng Kim Lợi
+      <i style="width: 10px;height: 10px;color: green;margin-left: 60px;" class="far fa-dot-circle"></i>
+    </span>
+  </div>
+
+
 </div>
 
 </div>
