@@ -1,1025 +1,162 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html>
+
 <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+    <title>My first Vue app</title>
+    <script
+    src="https://code.jquery.com/jquery-3.4.1.js"
+    integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+    crossorigin="anonymous"></script>
+    <head>
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <script src="https://kit.fontawesome.com/2e9e695fdc.js"></script> 
+        <style>
+            .head {
+                display: flex;
+                flex-direction: row;
+            }
+            
+            .content {
+                width: 200px;
+                margin-right: 100px;
+            }
+            
+            .content2 {
+                width: 200px;
+            }
+            
+            img {
+                width: 200px;
+            }
+            
+            .container {
+                width: 960px;
+                margin: 0 auto;
+            }
+        </style>
+    </head>
 
+    <body>
+        <div class="container">
+            <div class="head" style="position: relative;">
+                <div class="content">
+                    <img src="https://www.brandsvietnam.com/upload/forum2/2017/06/12659AIDA_1497374919.jpg">
+                    <h4>AIDA: Công thức bán hàng cơ bản nhất</h4>
+                    <p>Mọi người chỉ quan tâm tới một vấn đề khi họ có sự tò mò về những điều "bí ẩn" xung quanh nó. Công thức AIDA là công thức được xây dựng để "hướng sự quan tâm của người khác đến một chủ để nhất định".
 
-    <title>123Study</title>
-</head>
-<body>
- <div class="header">
-    <div class="container-1">
-        <div class="row">
-            <div class="col-8 col-md-6 head row">
-                <div class="logo-1 d-inline col-xs-8" style="display: inline;">
-                    <img class="logo" src="Capture.jpg">
+                        AIDA là gì?
+                    AIDA là viết tắt của 4 chữ Attention (Thu hút), Interest (Thích thú), Desire (Khao khát), Action (Hành động). Đây là 4 bước giúp đạt được hiệu quả khi muốn thuyết phục ai đó về một vấn đề họ chưa biết gì..</p>
                 </div>
-                <div class="input-seach" style="margin-left: 40px;display: inline;" class="d-inline col-xs-4" >
-                    <input class="seach" style="width: 220px; height: 37px;border-radius: 15px;border-color: #e2e2e2;position: absolute;border:solid 1px gray" type="text" name="">
-                    <i id="icon-search" style="background:none;color: #ff6e26; position: relative;margin-left: 190px;font-size: 18px;margin-top: 9px;" class="fas fa-search"></i>
-                </div>
+                <div class="content2">
+                    <img src="https://www.brandsvietnam.com/upload/forum2/2017/06/12659AIDA_1497374919.jpg">
+                    <h4>AIDA: Công thức bán hàng cơ bản nhất</h4>
+                    <p>Mọi người chỉ quan tâm tới một vấn đề khi họ có sự tò mò về những điều "bí ẩn" xung quanh nó. Công thức AIDA là công thức được xây dựng để "hướng sự quan tâm của người khác đến một chủ để nhất định".
 
+                        AIDA là gì?
+                    AIDA là viết tắt của 4 chữ Attention (Thu hút), Interest (Thích thú), Desire (Khao khát), Action (Hành động). Đây là 4 bước giúp đạt được hiệu quả khi muốn thuyết phục ai đó về một vấn đề họ chưa biết gì..</p>
+                    <button>click</button>
+                Đề cập đến vấn đề Biển Đông, Thủ tướng Nguyễn Xuân Phúc cho hay, gần đây diễn biến phức tạp, trong đó có việc vi phạm nghiêm trọng các vùng biển của Việt Nam được xác định theo luật pháp quốc tế, trái với Tuyên bố DOC và các thỏa thuận cấp cao.</p>
+                <img src="https://www.brandsvietnam.com/upload/forum2/2017/06/12659AIDA_1497374919.jpg">
+                <p>
+                    “1. Attention: Thu hút sự chú ý
+                    Bước đầu tiên bạn phải tiếp cận, thu hút sự chú ý của mọi người về nội dung, lĩnh vực mà bạn muốn truyền tải. Làm sao để giữa rất nhiều sự lựa chọn trong cuộc sống, mọi người dừng lại để khám phá và lựa chọn những gì bạn mang tới. Bạn có thể sử dụng rất nhiều phương pháp khác nhau như: so sánh, sử dụng từ ngữ ấn tượng, lặp đi lặp lại nhiều lần... để khơi gợi sự quan tâm và tò mò của những người xung quanh.
+
+                    2. Interest: Tạo sự thích thú
+                    Sự thu hút của mọi người sẽ chỉ có một tác dụng nhất định mà không có tính lâu dài và ổn định nếu bạn không chỉ ra được cho họ những điều mới lạ, hấp dẫn ở trong đó. Tạo ra sự thích thú là một trong những bước quan trọng và khó khăn nhất.
+
+                    Bạn cần nghiên cứu, tìm hiểu thật kỹ để nắm được những đặc điểm nổi trội trong chủ đề và sản phẩm của mình, đồng thời hiểu được nhu cầu, mong muốn của đối tượng mình hướng tới để sắp xếp, chọn lọc những yếu tố, thông điệp phù hợp nhất.
+                </p>
+                <p id="testss">hiiiaiaiaiiaa</p>
             </div>
-            <div class="col-6 col-xs-4 d-none d-md-inline    head">
-                <div class="seach" style="display: inline;margin-left: 170px;">
-                    <button class="seach" style="background-color: #ffffff;width: 170px;height: 33px;border-radius: 15px;border-color: #ff6e26;">
-                        <i style="color: #ff6e26;" class="fas fa-unlock"></i>
-                        <span style="color: #ff6e26;font-size: 15px;">Kích hoạt khóa học</span>
-                    </button>
-                </div>
-                <a class="seach" href="#">
-                    <i style="color: #ff6e26;font-size: 25px;margin-left: 28px;margin-top: 3px;display: inline;" class="far fa-bell"></i>
-                </a>
-                <img class="d-none d-md-inline" style="width: 28px;height: 28px;border-radius: 50%;margin-left: 50px;display: inline;margin-bottom: 5px;" src="https://scontent.fhan5-5.fna.fbcdn.net/v/t1.0-9/68654356_2436057616670705_6098427207506460672_n.jpg?_nc_cat=108&_nc_oc=AQnLsVM3nX236FgB_1RwueZArFYBzhJFcOkTpmcMjubKw9zR0QT3q-Y5FK5tQF906e47rh-mjIY2nfHV68gRZueb&_nc_ht=scontent.fhan5-5.fna&oh=57c236b600a14a573dc728dc52561e3b&oe=5DDBECED">
-                <span class="seach" style="margin-left: 10px;">Hoàng Kim Lợi</span>
+            <div class="content2">
+                    <img src="https://www.brandsvietnam.com/upload/forum2/2017/06/12659AIDA_1497374919.jpg">
+                    <h4>AIDA: Công thức bán hàng cơ bản nhất</h4>
+                    <p>Mọi người chỉ quan tâm tới một vấn đề khi họ có sự tò mò về những điều "bí ẩn" xung quanh nó. Công thức AIDA là công thức được xây dựng để "hướng sự quan tâm của người khác đến một chủ để nhất định".
 
+                        AIDA là gì?
+                    AIDA là viết tắt của 4 chữ Attention (Thu hút), Interest (Thích thú), Desire (Khao khát), Action (Hành động). Đây là 4 bước giúp đạt được hiệu quả khi muốn thuyết phục ai đó về một vấn đề họ chưa biết gì..</p>
+                    <button>click</button>
+                Đề cập đến vấn đề Biển Đông, Thủ tướng Nguyễn Xuân Phúc cho hay, gần đây diễn biến phức tạp, trong đó có việc vi phạm nghiêm trọng các vùng biển của Việt Nam được xác định theo luật pháp quốc tế, trái với Tuyên bố DOC và các thỏa thuận cấp cao.</p>
+                <img src="https://www.brandsvietnam.com/upload/forum2/2017/06/12659AIDA_1497374919.jpg">
+                <p>
+                    “1. Attention: Thu hút sự chú ý
+                    Bước đầu tiên bạn phải tiếp cận, thu hút sự chú ý của mọi người về nội dung, lĩnh vực mà bạn muốn truyền tải. Làm sao để giữa rất nhiều sự lựa chọn trong cuộc sống, mọi người dừng lại để khám phá và lựa chọn những gì bạn mang tới. Bạn có thể sử dụng rất nhiều phương pháp khác nhau như: so sánh, sử dụng từ ngữ ấn tượng, lặp đi lặp lại nhiều lần... để khơi gợi sự quan tâm và tò mò của những người xung quanh.
+
+                    2. Interest: Tạo sự thích thú
+                    Sự thu hút của mọi người sẽ chỉ có một tác dụng nhất định mà không có tính lâu dài và ổn định nếu bạn không chỉ ra được cho họ những điều mới lạ, hấp dẫn ở trong đó. Tạo ra sự thích thú là một trong những bước quan trọng và khó khăn nhất.
+
+                    Bạn cần nghiên cứu, tìm hiểu thật kỹ để nắm được những đặc điểm nổi trội trong chủ đề và sản phẩm của mình, đồng thời hiểu được nhu cầu, mong muốn của đối tượng mình hướng tới để sắp xếp, chọn lọc những yếu tố, thông điệp phù hợp nhất.
+                </p>
+                <p id="testss">hiiiaiaiaiiaa</p>
             </div>
-            <div class="menu-header d-xl-none col-xs-3" style="display: inline;" >
-                <div class="container-1">
-                    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="    position: fixed;top: 10px;right: 15px;">
-                      <span class="navbar-toggler-icon"></span>
-                  </button>
+            <div class="content2">
+                    <img src="https://www.brandsvietnam.com/upload/forum2/2017/06/12659AIDA_1497374919.jpg">
+                    <h4>AIDA: Công thức bán hàng cơ bản nhất</h4>
+                    <p>Mọi người chỉ quan tâm tới một vấn đề khi họ có sự tò mò về những điều "bí ẩn" xung quanh nó. Công thức AIDA là công thức được xây dựng để "hướng sự quan tâm của người khác đến một chủ để nhất định".
 
-                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav mr-auto">
-                      <li class="nav-item active">
-                        <img class="img-form" src="icon-content1.jpg" alt="study-cntt">
-                        <p class="text-form">Công nghệ thông tin</p>
-                    </li>
-                    <li class="nav-item">
-                        <img class="img-form" src="icon-content2.jpg" alt="study-cntt">
-                        <p class="text-form">Thiết kế</p>
-                    </li>
-                    <li class="nav-item">
-                        <img class="img-form" src="icon-content3.jpg" alt="study-cntt">
-                        <p class="text-form">Nuôi dậy con</p>
-                    </li>
-                    <li class="nav-item">
-                        <img class="img-form" src="icon-content4.jpg" alt="study-cntt">
-                        <p class="text-form">Phát triển bản thân</p>
-                    </li>
-                    <li class="nav-item">
-                        <img class="img-form" src="icon-content5.jpg" alt="study-business">
-                        <p class="text-form">Kinh doanh khởi nghiệp</p>
-                    </li>
+                        AIDA là gì?
+                    AIDA là viết tắt của 4 chữ Attention (Thu hút), Interest (Thích thú), Desire (Khao khát), Action (Hành động). Đây là 4 bước giúp đạt được hiệu quả khi muốn thuyết phục ai đó về một vấn đề họ chưa biết gì..</p>
+                    <button>click</button>
+                Đề cập đến vấn đề Biển Đông, Thủ tướng Nguyễn Xuân Phúc cho hay, gần đây diễn biến phức tạp, trong đó có việc vi phạm nghiêm trọng các vùng biển của Việt Nam được xác định theo luật pháp quốc tế, trái với Tuyên bố DOC và các thỏa thuận cấp cao.</p>
+                <img src="https://www.brandsvietnam.com/upload/forum2/2017/06/12659AIDA_1497374919.jpg">
+                <p>
+                    “1. Attention: Thu hút sự chú ý
+                    Bước đầu tiên bạn phải tiếp cận, thu hút sự chú ý của mọi người về nội dung, lĩnh vực mà bạn muốn truyền tải. Làm sao để giữa rất nhiều sự lựa chọn trong cuộc sống, mọi người dừng lại để khám phá và lựa chọn những gì bạn mang tới. Bạn có thể sử dụng rất nhiều phương pháp khác nhau như: so sánh, sử dụng từ ngữ ấn tượng, lặp đi lặp lại nhiều lần... để khơi gợi sự quan tâm và tò mò của những người xung quanh.
 
+                    2. Interest: Tạo sự thích thú
+                    Sự thu hút của mọi người sẽ chỉ có một tác dụng nhất định mà không có tính lâu dài và ổn định nếu bạn không chỉ ra được cho họ những điều mới lạ, hấp dẫn ở trong đó. Tạo ra sự thích thú là một trong những bước quan trọng và khó khăn nhất.
 
+                    Bạn cần nghiên cứu, tìm hiểu thật kỹ để nắm được những đặc điểm nổi trội trong chủ đề và sản phẩm của mình, đồng thời hiểu được nhu cầu, mong muốn của đối tượng mình hướng tới để sắp xếp, chọn lọc những yếu tố, thông điệp phù hợp nhất.
+                    2. Interest: Tạo sự thích thú
+                    Sự thu hút của mọi người sẽ chỉ có một tác dụng nhất định mà không có tính lâu dài và ổn định nếu bạn không chỉ ra được cho họ những điều mới lạ, hấp dẫn ở trong đó. Tạo ra sự thích thú là một trong những bước quan trọng và khó khăn nhất.
 
-                </ul>
+                    Bạn cần nghiên cứu, tìm hiểu thật kỹ để nắm được những đặc điểm nổi trội trong chủ đề và sản phẩm của mình, đồng thời hiểu được nhu cầu, mong muốn của đối tượng mình hướng tới để sắp xếp, chọn lọc những yếu tố, thông điệp phù hợp nhất.
 
+                </p>
+                <p id="testss">hiiiaiaiaiiaa</p>
             </div>
-        </nav>
-    </div>
-</div>
-</div>
-</div>
-</div>
 
+            <div style=" position: absolute;  right: 0 ; ">
+                <div id="hihi" style="height: 500px; background-color: yellow ;width: 110px;top : 500px; position: absolute; ">
+                    <div id="test2" style="height: 70px; width: 100px; background-color: black;   position: absolute;">
 
-<div class="content" style="background-image:url(https://wallpaperplay.com/walls/full/1/7/2/147275.jpg)" ;>
-    <div class="container-1" id="content1">
-        <div class="title1">
-            <div>
-                <h1 id="h1">Bạn quan tâm đến lĩnh vực nào</h1>
-                <hr id="hr" />
-                <h3 id="h3">Hãy cùng bắt đầu khám phá bằng việc giúp chúng tôi</h3>
-            </div>
-        </div>
-        <div style="margin-top: 35px;">
-            <div>
-                <a href="#">
-                    <div class="form">
-                        <div>
-                            <img class="img-form" src="icon-content1.jpg" alt="study-cntt">
-                            <p class="text-form">Công nghệ thông tin</p>
-                        </div>
                     </div>
-                </a>
-                <a href="#">
-                    <div class="form">
-                        <div>
-                            <img class="img-form" src="icon-content2.jpg" alt="study-cntt">
-                            <p class="text-form">Thiết kế</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="">
-                    <div class="form">
-                        <div>
-                            <img class="img-form" src="icon-content3.jpg" alt="study-cntt">
-                            <p class="text-form">Nuôi dậy con</p>
-                        </div>
-                    </div>
-                </a>
-                <a href="#">
-                    <div class="form">
-                        <div>
-                            <img class="img-form" src="icon-content4.jpg" alt="study-cntt">
-                            <p class="text-form">Phát triển bản thân</p>
-                        </div>
-                    </div>
-                </a>
-                <div class="form2">
-                    <div>
-                        <img class="img-form" src="icon-content5.jpg" alt="study-business">
-                        <p class="text-form">Kinh doanh khởi nghiệp</p>
-                    </div>
+                </div>
 
-                </div>
-            </div>
-            <div class="content-down">
-                <div class="form3">
-                    <div>
-                        <img class="img-form" src="icon-content6.jpg" alt="study-business">
-                        <p class="text-form">Ngoại ngữ</p>
-                    </div>
-                </div>
-                <div class="form3">
-                    <div>
-                        <img class="img-form" src="icon-content7.jpg" alt="study-business">
-                        <p class="text-form">Marketing</p>
-                    </div>
-                </div>
-                <div class="form2">
-                    <div>
-                        <img class="img-form" src="icon-content8.jpg" alt="study-business">
-                        <p class="text-form">Tin học văn phòng</p>
-                    </div>
-                </div>
             </div>
 
         </div>
     </div>
-</div>
-<div class="content bg-dark " style="background-color: #f2f2f2; ">
-    <div class="container-1">
-        <div>
-            <nav>
-                <div class="nav nav-tabs nav-fill justify-content-center" id="menu">
-                    <a  id="item1" class="nav-link ">Được quan tâm nhất</a>
-                    <a  id="item2" class="nav-link">Mới ra mắt</a>
-                    <a  id="item3" class="nav-link">Đánh giá cao nhất</a>
-                </div>
-            </nav>
-        </div>
-    </div>
-</div>
-<div style="background-color: #f2f2f2" id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-       <div class="container-1">
-          <div class="slide1" style="display: inline-block;">
-            <a href="#" style="text-decoration: none;">
-                <img src="img-slide4.jpg">
-                <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                <p class="slide-cost1">599.000đ</p>
-                <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                    <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                </a>
-            </div>
-            <div class="slide1" style="display: inline-block; margin: 0 11px 0 22px;">
-                <a href="#" style="text-decoration: none;">
-                    <img src="img-slide3.jpg">
-                    <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                    <p class="slide-cost1">599.000đ</p>
-                    <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                        <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                    </a>
-                </div>
-                <div class="slide1" style="display: inline-block;margin: 0 22px 0px 11px;">
-                    <a href="#" style="text-decoration: none;">
-                        <img src="img-slide2.jpg">
-                        <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excelâ</h5>
-                        <p class="slide-cost1">599.000đ</p>
-                        <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                            <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                        </a>
-                    </div>
-                    <div class="slide1" style="display: inline-block;">
-                        <a href="#" style="text-decoration: none;">
-                            <img src="img-slide1.jpg">
-                            <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                            <p class="slide-cost1">599.000đ</p>
-                            <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                   <div class="container-1">
-                      <div class="slide1" style="display: inline-block;">
-                        <a href="#" style="text-decoration: none;">
-                            <img src="img-slide4.jpg">
-                            <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                            <p class="slide-cost1">599.000đ</p>
-                            <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                            </a>
-                        </div>
-                        <div class="slide1" style="display: inline-block; margin: 0 11px 0 22px;">
-                            <a href="#" style="text-decoration: none;">
-                                <img src="img-slide3.jpg">
-                                <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                <p class="slide-cost1">599.000đ</p>
-                                <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                    <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                </a>
-                            </div>
-                            <div class="slide1" style="display: inline-block;margin: 0 22px 0px 11px;">
-                                <a href="#" style="text-decoration: none;">
-                                    <img src="img-slide2.jpg">
-                                    <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excelâ</h5>
-                                    <p class="slide-cost1">599.000đ</p>
-                                    <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                        <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                    </a>
-                                </div>
-                                <div class="slide1" style="display: inline-block;">
-                                    <a href="#" style="text-decoration: none;">
-                                        <img src="img-slide1.jpg">
-                                        <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                        <p class="slide-cost1">599.000đ</p>
-                                        <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                            <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                               <div class="container-1">
-                                  <div class="slide1" style="display: inline-block;">
-                                    <a href="#" style="text-decoration: none;">
-                                        <img src="img-slide4.jpg">
-                                        <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                        <p class="slide-cost1">599.000đ</p>
-                                        <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                            <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                        </a>
-                                    </div>
-                                    <div class="slide1" style="display: inline-block; margin: 0 11px 0 22px;">
-                                        <a href="#" style="text-decoration: none;">
-                                            <img src="img-slide3.jpg">
-                                            <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                            <p class="slide-cost1">599.000đ</p>
-                                            <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                            </a>
-                                        </div>
-                                        <div class="slide1" style="display: inline-block;margin: 0 22px 0px 11px;">
-                                            <a href="#" style="text-decoration: none;">
-                                                <img src="img-slide2.jpg">
-                                                <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excelâ</h5>
-                                                <p class="slide-cost1">599.000đ</p>
-                                                <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                    <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                </a>
-                                            </div>
-                                            <div class="slide1" style="display: inline-block;">
-                                                <a href="#" style="text-decoration: none;">
-                                                    <img src="img-slide1.jpg">
-                                                    <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                    <p class="slide-cost1">599.000đ</p>
-                                                    <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                        <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                    </a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                                <div  style="background-color: #f2f2f2;">
-                                    <div class="container-1">
-                                        <div style="margin-top: 35px;" class="row no-gutters" id="img-content">
-                                            <div class="col-md-8 no-gutters" style="max-width: 800px;">
-                                                <a href="#">
-                                                    <img  src="big-img1.jpg">
-                                                </a>
-                                            </div>
-                                            <div class="col-md-4 no-gutters " style=" margin-left: 20px; max-width: 360px;">
-                                                <div class="col-12 no-gutters" style="background-color:#e5e5e5; ">
-                                                    <a href="#">
-                                                        <img class="seach" style="height: 174px;" src="big-img2.jpg">
-                                                    </a>
-                                                </div>
-                                                <div class="col-12 no-gutters" style="margin-top: 18px;">
-                                                    <a href="#">
-                                                        <img class="seach" style="height: 175px;" src="big-img3.jpg">
-                                                    </a>
-                                                </div>
-                                            </div>
 
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="footer" style="background-color: #f2f2f2;">
-                                    <div class="container-1">
-                                        <h2>Đang giảm giá mạnh</h2>
-                                        <hr class="hr">
-                                        <div class="row no-gutters" style = "margin-left :0px; padding-bottom: 67px;">
-                                            <div class="col-md-6 no-gutters" style="max-width: 590px; padding: 0px; background-color: white;">
-                                                <a href="#" style="text-decoration: none;">
-                                                    <img src="img-slide6.jpg" style="width: 100%;">
-                                                    <h5 class="slide-title1" style="font-size: 25px; margin-top: 25px;" >Tăng hiệu quả và năng xuất công việc với VBA và Excel hơn hẳn với bộ công cụ mới</h5>
-                                                    <p style="margin-top: 50px; " class="slide-cost1">599.000đ</p>
-                                                    <p class="new-cost"><span style="font-size: 13px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                        <span style="font-size: 25px; color: #ff5500; float: right; font-weight: bold;">399.000đ</span></p>
-                                                    </a>
-                                                </div>
-                                                <div class="col-md-6 no-gutters" style="padding: 0; max-width:590px;" id="card-content">
-                                                    <div class="row no-gutters" style="margin-left: 20px;" id="respontive-card">
-                                                        <div class="col-6">
-                                                            <div class="slide1" style="display: inline-block;">
-                                                                <a href="#" style="text-decoration: none;">
-                                                                    <img src="img-slide3.jpg">
-                                                                    <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                                    <p class="slide-cost1">599.000đ</p>
-                                                                    <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                                        <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                                    </a>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-6" style =" margin-left :30px;">
-                                                                <div class="slide1" style="display: inline-block;">
-                                                                    <a href="#" style="text-decoration: none;">
-                                                                        <img src="img-slide3.jpg">
-                                                                        <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                                        <p class="slide-cost1">599.000đ</p>
-                                                                        <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                                            <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                                        </a>
-                                                                    </div>
-                                                                </div>
+     <script type="text/javascript">
+            $(function() {
+                $.fn.hello = function(options) {
+                    var z = $(this);
+                    var x = z.position();
+                    y = ((z.parent()).height());
+                    k = z.height();
+                    y2 = ((z.parent()).position());
+                    var defaults = {
+                        top2: 200,
+                    };
+                    var settings = $.extend(defaults, options);
+                    z.css("top", settings.top2 + "px");
+                    $(window).scroll(function() {
+                        t = $(window).scrollTop() - (x.top + settings.top2);
+                        if (t < ((y2.top))) {
+                            z.css("top", settings.top2 + "px");
+                        }
+                        if (t > (y2.top) && t < ((y2.top) + y - k - (settings.top2))) {
+                            z.css("top", ($(window).scrollTop() - (y2.top) + "px"));
+                        } else if (t > ((y2.top) + y - k)) {
+                            z.css("top", (y - k) + "px");
+                        }
+                    });
+                }
+            }(jQuery));
+            $('#test2').hello({
+                top2: 50,
+            });
+        </script>
+</body>
 
-                                                            </div>
-                                                            <div class="row no-gutters" id="respontive-card"  style="margin-top: 25px; margin-left: 20px;">
-                                                                <div class="col-6">
-                                                                    <div class="slide1" style="display: inline-block;">
-                                                                        <a href="#" style="text-decoration: none;">
-                                                                            <img src="img-slide3.jpg">
-                                                                            <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                                            <p class="slide-cost1">599.000đ</p>
-                                                                            <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                                                <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                                            </a>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-6" style =" margin-left :30px;">
-                                                                        <div class="slide1" style="display: inline-block;">
-                                                                            <a href="#" style="text-decoration: none;">
-                                                                                <img src="img-slide3.jpg">
-                                                                                <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                                                <p class="slide-cost1">599.000đ</p>
-                                                                                <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                                                    <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                                                </a>
-                                                                            </div>
-                                                                        </div>
-
-                                                                    </div>
-
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="content" >
-
-                                                        <div style="background-color: #fff;" id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                                                          <div class="carousel-inner">
-                                                            <div class="carousel-item active">
-                                                              <div class="container-1">
-                                                                  <div class="row" style="margin: 50px 0px 30px 0px; ">
-                                                                    <div class="col-md-7" style="padding: 0px;" id="profile-slide">
-
-                                                                        <span style="font-size: 40px;font-weight: bold;color: #6a6a6a;" >4</span> <span style="font-size: 20px;"> Khóa học</span>
-                                                                        <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                                            <div class="col-4" style="max-width: 175px; padding:0px">
-                                                                                <img src="profile3.jpg " style="max-width: 172px;">
-                                                                            </div>
-                                                                            <div class="col-7 " style=" max-width: 400px;">
-                                                                                <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                                                <span class="name-user"  style="font-size: 11px; color: #8e96a6;">Lê Đức Lợi</span>
-                                                                                <span class="cost">799,000đ</span>
-
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                                            <div class="col-4" style="max-width: 175px; padding:0px">
-                                                                                <img src="profile2.jpg " style="max-width: 172px;">
-                                                                            </div>
-                                                                            <div class="col-7 " style=" max-width: 400px;">
-                                                                                <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                                                <span  class="name-user">Lê Đức Lợi</span>
-                                                                                <span class="cost">799,000đ</span>
-
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                                            <div class="col-4" style="max-width: 175px; padding:0px">
-                                                                                <img src="profile.jpg " style="max-width: 172px;">
-                                                                            </div>
-                                                                            <div class="col-7 " style=" max-width: 400px;">
-                                                                                <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                                                <span  class="name-user">Lê Đức Lợi</span>
-                                                                                <span class="cost">799,000đ</span>
-
-                                                                            </div>
-                                                                        </div>
-                                                                    </div>
-                                                                    <div class="col-md-5" id="profile-user">
-                                                                      <a class=" left carousel-control-prev" href="#carouselExampleControls" data-slide="prev" id="prev">
-                                                                          <span class="carousel-control-prev-icon" ></span>
-                                                                      </a>
-                                                                      <a class=" right carousel-control-next" href="#carouselExampleControls" data-slide="next" id="next">
-                                                                          <span class="carousel-control-next-icon" ></span>
-                                                                      </a>
-                                                                      <div  class="list-user"  style="width: 35%; margin: 0 auto;margin-top: 50px;" >
-                                                                          <a href="#" class="item1"><img class="img-user" src="user1.jpg"></a>
-                                                                          <a href="#" class="item2"><img class="img-user" src="user1.jpg"></a>
-                                                                          <a href="#" class="item3"><img class="img-user" src="user1.jpg"></a>
-                                                                          <a href="#" class="item4"><img class="img-user" src="user1.jpg"></a>
-                                                                      </div>
-                                                                      <div style="margin-top: 25px;">
-                                                                        <img src="img-profile.jpg" class="rounded-circle" style="display: block; margin: auto;">
-                                                                        <p >Giảng viên</p>
-                                                                        <p >Lê Đức Lợi   </p>
-                                                                        <p style="font-size: 12px; ">Anh Lê Đức Lợi có hơn 10 năm kinh nghiệm làm việc trong lĩnh vực thiết kế đồ họa<br> tại nhiều công ty thiết kết quảng cáo với các vị trí như trưởng phòng<br> thiết kế, giám đốc mĩ thuật , giám đốc điều hành công ty quảng cáo,<br> đồng thời anh cũng tham gia dạy chuyên ngành...</p>
-                                                                        <div class="upgrade">
-                                                                            <a href="#"><button type="button" class="btn" style="border-radius: 40px;">
-                                                                                <p class="my-page">Trang cá nhân</p>
-                                                                            </button></a>
-                                                                        </div>
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                    <div class="carousel-item">
-                                                      <div class="container-1">
-                                                          <div class="row" style="margin: 50px 0px 30px 0px; ">
-                                                            <div class="col-md-7" style="padding: 0px;" id="profile-slide">
-
-                                                                <span style="font-size: 40px;font-weight: bold;color: #6a6a6a;" >4</span> <span style="font-size: 20px;"> Khóa học</span>
-                                                                <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                                    <div class="col-4" style="max-width: 175px; padding:0px">
-                                                                        <img src="profile3.jpg " style="max-width: 172px;">
-                                                                    </div>
-                                                                    <div class="col-7 " style=" max-width: 400px;">
-                                                                        <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                                        <span class="name-user"  style="font-size: 11px; color: #8e96a6;">Lê Đức Lợi</span>
-                                                                        <span class="cost">799,000đ</span>
-
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                                    <div class="col-4" style="max-width: 175px; padding:0px">
-                                                                        <img src="profile2.jpg " style="max-width: 172px;">
-                                                                    </div>
-                                                                    <div class="col-7 " style=" max-width: 400px;">
-                                                                        <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                                        <span  class="name-user">Lê Đức Lợi</span>
-                                                                        <span class="cost">799,000đ</span>
-
-                                                                    </div>
-                                                                </div>
-                                                                <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                                    <div class="col-4" style="max-width: 175px; padding:0px">
-                                                                        <img src="profile.jpg " style="max-width: 172px;">
-                                                                    </div>
-                                                                    <div class="col-7 " style=" max-width: 400px;">
-                                                                        <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                                        <span  class="name-user">Lê Đức Lợi</span>
-                                                                        <span class="cost">799,000đ</span>
-
-                                                                    </div>
-                                                                </div>
-                                                            </div>
-                                                            <div class="col-md-5" id="profile-user">
-                                                              <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                                <span class="sr-only">Previous</span>
-                                                            </a>
-                                                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                                <span class="sr-only">Next</span>
-                                                            </a>
-                                                            <div  class="list-user"  style="width: 35%; margin: 0 auto;margin-top: 50px;" >
-                                                              <a class="item1"><img class="img-user" src="user1.jpg"></a>
-                                                              <a class="item2"><img class="img-user" src="user1.jpg"></a>
-                                                              <a class="item3"><img class="img-user" src="user1.jpg"></a>
-                                                              <a class="item4"><img class="img-user" src="user1.jpg"></a>
-                                                          </div>
-                                                          <div style="margin-top: 25px;">
-                                                            <img src="img-profile.jpg" class="rounded-circle" style="display: block; margin: auto;">
-                                                            <p >Giảng viên</p>
-                                                            <p >Lê Đức Lợi   </p>
-                                                            <p style="font-size: 12px; ">Anh Lê Đức Lợi có hơn 10 năm kinh nghiệm làm việc trong lĩnh vực thiết kế đồ họa<br> tại nhiều công ty thiết kết quảng cáo với các vị trí như trưởng phòng<br> thiết kế, giám đốc mĩ thuật , giám đốc điều hành công ty quảng cáo,<br> đồng thời anh cũng tham gia dạy chuyên ngành...</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="carousel-item">
-                                          <div class="container-1">
-                                              <div class="row" style="margin: 50px 0px 30px 0px; ">
-                                                <div class="col-md-7" style="padding: 0px;" id="profile-slide">
-
-                                                    <span style="font-size: 40px;font-weight: bold;color: #6a6a6a;" >4</span> <span style="font-size: 20px;"> Khóa học</span>
-                                                    <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                        <div class="col-4" style="max-width: 175px; padding:0px">
-                                                            <img src="profile3.jpg " style="max-width: 172px;">
-                                                        </div>
-                                                        <div class="col-7 " style=" max-width: 400px;">
-                                                            <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                            <span class="name-user"  style="font-size: 11px; color: #8e96a6;">Lê Đức Lợi</span>
-                                                            <span class="cost">799,000đ</span>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                        <div class="col-4" style="max-width: 175px; padding:0px">
-                                                            <img src="profile2.jpg " style="max-width: 172px;">
-                                                        </div>
-                                                        <div class="col-7 " style=" max-width: 400px;">
-                                                            <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                            <span  class="name-user">Lê Đức Lợi</span>
-                                                            <span class="cost">799,000đ</span>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="row" style="margin: 25px 0px 0px 0px;">
-                                                        <div class="col-4" style="max-width: 175px; padding:0px">
-                                                            <img src="profile.jpg " style="max-width: 172px;">
-                                                        </div>
-                                                        <div class="col-7 " style=" max-width: 400px;">
-                                                            <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                            <span  class="name-user">Lê Đức Lợi</span>
-                                                            <span class="cost">799,000đ</span>
-
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="col-md-5" id="profile-user">
-                                                  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                                    <span class="sr-only">Previous</span>
-                                                </a>
-                                                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                                    <span class="sr-only">Next</span>
-                                                </a>
-                                                <div  class="list-user"  style="width: 35%; margin: 0 auto;" >
-                                                  <a href="#" class="item1"><img class="img-user" src="user1.jpg"></a>
-                                                  <a href="#" class="item2"><img class="img-user" src="user1.jpg"></a>
-                                                  <a href="#" class="item3"><img class="img-user" src="user1.jpg"></a>
-                                                  <a href="#" class="item4"><img class="img-user" src="user1.jpg"></a>
-                                              </div>
-                                              <div style="margin-top: 25px;">
-                                                <img src="img-profile.jpg" class="rounded-circle" style="display: block; margin: auto;">
-                                                <p >Giảng viên</p>
-                                                <p >Lê Đức Lợi   </p>
-                                                <p style="font-size: 12px; ">Anh Lê Đức Lợi có hơn 10 năm kinh nghiệm làm việc trong lĩnh vực thiết kế đồ họa<br> tại nhiều công ty thiết kết quảng cáo với các vị trí như trưởng phòng<br> thiết kế, giám đốc mĩ thuật , giám đốc điều hành công ty quảng cáo,<br> đồng thời anh cũng tham gia dạy chuyên ngành...</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="carousel-item">
-                              <div class="container-1">
-                                  <div class="row" style="margin: 50px 0px 30px 0px; ">
-                                    <div class="col-md-7" style="padding: 0px;" id="profile-slide">
-
-                                        <span style="font-size: 50px;" >4</span> <span style="font-size: 20px;"> Khóa học</span>
-                                        <div class="row" style="margin: 25px 0px 0px 0px;">
-                                            <div class="col-4" style="max-width: 175px; padding:0px">
-                                                <img src="profile3.jpg " style="max-width: 172px;">
-                                            </div>
-                                            <div class="col-7 " style=" max-width: 400px;">
-                                                <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                <span class="name-user"  style="font-size: 11px; color: #8e96a6;">Lê Đức Lợi</span>
-                                                <span class="cost">799,000đ</span>
-
-                                            </div>
-                                        </div>
-                                        <div class="row" style="margin: 25px 0px 0px 0px;">
-                                            <div class="col-4" style="max-width: 175px; padding:0px">
-                                                <img src="profile2.jpg " style="max-width: 172px;">
-                                            </div>
-                                            <div class="col-7 " style=" max-width: 400px;">
-                                                <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                <span  class="name-user">Lê Đức Lợi</span>
-                                                <span class="cost">799,000đ</span>
-
-                                            </div>
-                                        </div>
-                                        <div class="row" style="margin: 25px 0px 0px 0px;">
-                                            <div class="col-4" style="max-width: 175px; padding:0px">
-                                                <img src="profile.jpg " style="max-width: 172px;">
-                                            </div>
-                                            <div class="col-7 " style=" max-width: 400px;">
-                                                <p style="font-weight: 900; font-size: 16px;">Adobe Illustrator CC 2015 - Tổng quát cơ bản đến nâng cao</p>
-                                                <span  class="name-user">Lê Đức Lợi</span>
-                                                <span class="cost">799,000đ</span>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-5" id="profile-user">
-                                      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                    <div  class="list-user"  style="width: 35%; margin: 0 auto;" >
-                                      <a class="item1"><img class="img-user" src="user1.jpg"></a>
-                                      <a class="item2"><img class="img-user" src="user1.jpg"></a>
-                                      <a class="item3"><img class="img-user" src="user1.jpg"></a>
-                                      <a class="item4"><img class="img-user" src="user1.jpg"></a>
-                                  </div>
-                                  <div style="margin-top: 25px;">
-                                    <img src="img-profile.jpg" class="rounded-circle" style="display: block; margin: auto;">
-                                    <p >Giảng viên</p>
-                                    <p >Lê Đức Lợi   </p>
-                                    <p style="font-size: 12px; ">Anh Lê Đức Lợi có hơn 10 năm kinh nghiệm làm việc trong lĩnh vực thiết kế đồ họa<br> tại nhiều công ty thiết kết quảng cáo với các vị trí như trưởng phòng<br> thiết kế, giám đốc mĩ thuật , giám đốc điều hành công ty quảng cáo,<br> đồng thời anh cũng tham gia dạy chuyên ngành...</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="footer" style="background-color: #f2f2f2;">
-                <div class="container-1">
-                    <h2>Nổi bật trong tuần</h2>
-                    <hr class="hr">
-                    <div>
-                        <div class="slide1" style="display: inline-block;">
-                            <a href="#" style="text-decoration: none;">
-                                <img src="img-slide3.jpg">
-                                <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                <p class="slide-cost1">599.000đ</p>
-                                <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                    <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                </a>
-                            </div>
-                            <div class="slide1" style="display: inline-block; margin: 0 11px 0 22px;">
-                                <a href="#" style="text-decoration: none;">
-                                    <img src="img-slide4.jpg">
-                                    <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                    <p class="slide-cost1">599.000đ</p>
-                                    <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                        <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                    </a>
-                                </div>
-                                <div class="slide1" style="display: inline-block;margin: 0 22px 0px 11px;">
-                                    <a href="#" style="text-decoration: none;">
-                                        <img src="img-slide3.jpg">
-                                        <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excelâ</h5>
-                                        <p class="slide-cost1">599.000đ</p>
-                                        <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                            <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                        </a>
-                                    </div>
-                                    <div class="slide1" style="display: inline-block;">
-                                        <a href="#" style="text-decoration: none;">
-                                            <img src="img-slide4.jpg">
-                                            <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                            <p class="slide-cost1">599.000đ</p>
-                                            <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                            </a>
-                                        </div>
-
-                                    </div>
-                                    <div style="margin-top: 25px; padding-bottom: 70px;">
-                                        <div class="slide1" style="display: inline-block;">
-                                            <a href="#" style="text-decoration: none;">
-                                                <img src="img-slide1.jpg">
-                                                <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                <p class="slide-cost1">599.000đ</p>
-                                                <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                    <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                </a>
-                                            </div>
-                                            <div class="slide1" style="display: inline-block; margin: 0 11px 0 22px;">
-                                                <a href="#" style="text-decoration: none;">
-                                                    <img src="img-slide2.jpg">
-                                                    <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                    <p class="slide-cost1">599.000đ</p>
-                                                    <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                        <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                    </a>
-                                                </div>
-                                                <div class="slide1" style="display: inline-block;margin: 0 22px 0px 11px;">
-                                                    <a href="#" style="text-decoration: none;">
-                                                        <img src="img-slide1.jpg">
-                                                        <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                        <p class="slide-cost1">599.000đ</p>
-                                                        <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                            <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                        </a>
-                                                    </div>
-                                                    <div class="slide1" style="display: inline-block;">
-                                                        <a href="#" style="text-decoration: none;">
-                                                            <img src="img-slide2.jpg">
-                                                            <h5 class="slide-title1" >Tăng hiệu quả và năng xuất công việc với VBA và Excel</h5>
-                                                            <p class="slide-cost1">599.000đ</p>
-                                                            <p class="new-cost"><span style="font-size: 11px; color: #8e96a6;">Nguyen Dưc Thanh</span>
-                                                                <span style="font-size: 20px; color: #ff5500; float: right;">399.000đ</span></p>
-                                                            </a>
-                                                        </div>
-
-                                                    </div>
-
-                                                </div>
-                                            </div>
-
-                                            <div class="footer" >
-                                                <div class="container-1" >
-
-                                                    <div class="row no-gutters">
-                                                        <div class="col-md-6 no-gutters" style="max-width: 580px ; ">
-                                                            <h2 style="padding-top: 70px;">Tin tức</h2>
-                                                            <hr style="border: solid 1px; color: #dddddd; margin-top: 25px;">
-                                                            <div class="row" style=" margin-top: 50px;" id="respontive-news" >
-                                                                <div class="col-md-7 col-xs-6 no-gutters" style="max-width: 310px; padding: 0px; ">
-                                                                    <div class="row no-gutters" style="margin-left: 15px;">
-
-                                                                        <div class="col-2 d-flex align-items-center justify-content-center" style="width: 40px;border: solid 1px; border-color: #ff5500 ; padding:0px;">
-                                                                            <!-- <div class="day"> -->
-                                                                                <span style="font-size: 20px;color: #ff5500; ">30</span>
-                                                                                <!-- </div> -->
-                                                                            </div>
-                                                                            <div class="col-8" style="margin-left: 10px;">
-                                                                                <p style="margin: 0;font-size: 13px;color: #ff5500; ">Tháng 7</p>
-                                                                                <p style="margin: 0;font-size: 15px; font-weight: normal;">Ra mắt trang tài liệu mới</p>
-                                                                            </div>
-                                                                        </div>
-                                                                        <div class="row no-gutters" style="font-size: 12px; color: #999999; margin-top: 15px; margin-left: 15px;">
-
-
-                                                                         <span><i class="fas fa-heart"></i>
-                                                                            <span style="text-align: left;">89 like</span>
-                                                                        </span> 
-
-                                                                        <span style="margin: 0 30px;"><i class="fas fa-comments"></i>
-                                                                            <span style="text-align: left;">59 comment</span>
-                                                                        </span> 
-
-                                                                        <span> <i class="fas fa-share-alt"></i>
-                                                                            <span style="text-align: left; ">29 share</span>
-                                                                        </span>
-
-                                                                    </div>
-                                                                    <div class="row no-gutters" style="font-size: 15px; color: #999999; margin-top: 20px; margin-left: 15px;">
-                                                                        <p style="text-align: left; ">Mối quan hệ biện chứng giữa vật chất và ý thức, ý nghĩa Mối quan hệ biện chứng giữa vật chất và ý thức, ý nghĩa Mối quan hệ biện chứng giữa vật chất và ý thức</p>
-                                                                    </div>
-                                                                    <a href="#" style="font-size: 15px; margin-left: 15px; color: #ff6526;">Chi tiết</a>
-
-                                                                </div>
-                                                                <div class="col-md-5 col-xs-5 " style="max-width: 330px; margin-left: 15px;padding: 0;">
-                                                                    <img style="max-width:270px; " src="img-footer1.jpg">
-                                                                </div>
-
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-6 no-gutters" style="max-width: 580px; margin-left: 20px;" id="respontive-comment">
-                                                            <h2 style="padding-top: 70px;">Đánh giá</h2>
-                                                            <hr style="border: solid 1px; color: #dddddd; margin-top: 25px;">
-                                                            <div class="row no-gutters" style="margin-left: 10px;" id="comment1">
-                                                                <p class="comment-footer"> <i class="fas fa-quote-left"></i> chúng tôi đã thực sự hài lòng về chất lượng dịch vụ tại Tago. Đã có vài sự nhầm lẫn, nhưng để khắc phục điều đó, là một thái độ thật thà và chân thành, đã khiến chúng tôi hài lòng và chất lượng
-                                                                và dịch vụ tại Tago</p>
-                                                            </div>
-                                                            <div class="down-arow"></div>
-                                                            <div class="row no-gutters" style="margin-bottom: 80px;">
-                                                                <a href="#" style="display: inline-block;">
-
-                                                                    <img style="padding-left: 50px; margin-right: 13px;" src="icon-user2.jpg">
-                                                                </a>
-                                                                <div style="display: inline-block;">
-                                                                    <a href="#" style="font-weight: bold; color: black; text-decoration: none;">Nguyên Nam Anh</a>
-                                                                    <span style="display: block; color: #999999; ">Đánh giá 2 giờ trước</span>
-                                                                </div>
-                                                            </div>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="footer" style="background-color: #f2f2f2; padding-bottom: 70px; padding-top: 67px;">
-                                                <div class="container-1">
-                                                    <div class="row no-gutters">
-                                                        <div class="col-md-7" style="max-width: 720px; padding-top: 50px;background-image: url(https://scontent.fhan5-5.fna.fbcdn.net/v/t1.15752-9/69241837_682836302143530_6621633878622732288_n.jpg?_nc_cat=108&_nc_oc=AQmVr4wcXhUsYIRdsw2LnEG_pZsigjWb4FrW7slAKwcorGg9eVNGkvHJFF0ejDg780iZk32dsKm95kjbvRSemCyr&_nc_ht=scontent.fhan5-5.fna&oh=cffdcc01cfd3c1753c9227c55858d4c5&oe=5DD4A9CF);">
-                                                            <div style="margin-left: 30px;">
-                                                                <span><h4 style="font-size: 20px; margin: 0; color: white;">Đăng ký tài khoản</h4> </span> <span style="font-size: 25px; color: white;"> MIỄN PHÍ </span><span style="font-size: 20px; color: white;"> ngay bây giờ </span>
-                                                                <hr id="hr" style=" margin: 25px 0;">
-                                                                <p class="text-footer" style="text-align: left; ">để khám phá đầy đủ tính năng của chúng tôi</p>
-                                                            </div>
-                                                        </div>
-                                                        <div class="col-md-5" style="background-color: white; ">
-                                                            <p style="text-align: center; padding-top: 45px;">ĐĂNG KÝ</p>
-                                                            <p class="text-footer">Đăng ký bằng mạng xã hội</p>
-                                                            <div style=" margin: 0 auto; max-width: 300px;">
-                                                                <a href="#" class="login-facebook">
-                                                                    <button type="button" class="btn" style="   margin-right: 20px;" >
-                                                                        <div style="padding: 0 20px 0 10px;">
-                                                                            <img class="icon-facebook" src="icon-facebook.jpg">
-                                                                            <span style="color: white; font-size: 14px;">Facebook</span>
-                                                                        </div>
-                                                                    </button>
-                                                                </a>
-                                                                <a href="#" class="login-facebook">
-                                                                    <button type="button" class="btn" style="background: red;">
-                                                                        <div style="padding: 0 20px 0 10px;">
-                                                                            <i class="fab fa-google-plus-g" style="color: white;"></i>
-                                                                            <span style="color: white; font-size: 14px; ">Google+</span>
-                                                                        </div>
-                                                                    </button>
-                                                                </a>
-
-                                                            </div>
-                                                            <p class="text-footer" style="margin: 10px;">Hoặc điền thông tin</p>
-                                                            <div style="margin-top: 20px;">
-                                                                <div class="registration">
-                                                                    <input id="search333" type="text" placeholder="Địa chỉ email">
-                                                                    <i class="far fa-user" id="search334"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div style="margin-top: 20px;">
-                                                                <div class="registration">
-                                                                    <input id="search333" type="text" placeholder="Mật khẩu từ 6 đên 32 ký tự">
-                                                                    <i class="fas fa-lock" id="search334" style="color: #464646;"></i>
-                                                                </div>
-                                                            </div>
-                                                            <div style="margin-top: 20px;">
-                                                                <div class="registration">
-                                                                    <input id="search333" type="text" placeholder="Gõ lại mật khẩu">
-                                                                    <i class="fas fa-lock" id="search334" style="color: #464646;"></i>
-                                                                </div>
-                                                                <div class="upgrade">
-                                                                    <a href="#"><button type="button" class="btn">
-                                                                        <p >Hoàn tất</p>
-                                                                    </button></a>
-                                                                </div>
-                                                                <p style="margin-top: 10px;" class="text-footer">
-                                                                  <a href=""><span>Bạn đã có tài khoản? </span></a>
-                                                                  <a href=""><span style="color:  #ff5500; "> Đăng nhập</span></a>
-                                                              </p>
-                                                          </div>
-
-                                                      </div>
-
-                                                  </div>
-                                              </div>
-
-                                          </div>
-                                          <div class="footer">
-                                            <div class="container-1" >
-                                                <div class="row no-gutters">
-                                                    <div class="col-md-6 no-gutters" style="max-width: 520px; padding-top: 95px; padding-bottom: 50px;">
-                                                        <div>
-                                                            <img style="width: 156px;height: 40px;" src="Capture.jpg">
-                                                        </div>
-                                                        <div class="menu-footer1" >
-                                                            <span><a href="#">Trang chủ
-                                                            </a>
-                                                        </span>
-                                                        <span class="menu-footer" style="margin: 0 12px" >/</span>
-                                                        <span class="menu-footer"> 
-                                                            <a  href="#">Giới thiệu
-                                                            </a>
-                                                        </span>
-                                                        <span style="margin: 0 12px" >/</span>
-                                                        <span >
-                                                            <a  href="#">Thông báo
-                                                            </a>
-                                                        </span>
-                                                        <span class="menu-footer" style="margin: 0 12px" >/</span>
-                                                        <span ><a href="#">Liên hệ</a></span>
-                                                        <hr class="hr" style="margin-top: 10px;">
-                                                    </div>
-                                                    <div class="menu-footer1">
-                                                        <p><a href="#"> <i class="fas fa-map-marker-alt"></i> Tầng 3, Tòa nhà HC, 102 Thái Thịnh, Đống Đa, Hà Nội</a></p>
-                                                        <span><a href="#"> <i class="fas fa-phone-alt"></i>(+84)439352690</a></span>
-                                                        <span><a href="#"><img src="letters.jpg"> trading@Furmi.com.vn</a></span>
-                                                        <hr class="hr" style="margin-top: 15px;">
-                                                    </div>
-                                                    <div style="margin-top: 30px;">
-                                                        <span class="menu-footer1">Copyright 2016. Fumi All Right Reserved</span>
-                                                        <a href="">
-                                                        <span style="margin-left: 30px;">
-                                                            <img src="facebooklogo-min.jpg">
-                                                            <img src="twitch-min.jpg">
-                                                            <img src="googlelogo-min.jpg">
-                                                            <img src="youtubelogo-min.jpg">
-                                                            <img src="inlogo-min.jpg">
-                                                        </span>
-                                                        </a>
-                                                    </div>
-
-                                                </div>
-                                                <div class="col-md-5 no-gutters" style="max-width: 500px; margin-left: 180px;  " id="respontive-footer"> 
-                                                    <div class="row no-gutters" id="ipad-respontive">
-                                                        <div class="list1">
-                                                            <ul>
-                                                                <li class="title-menu">LỊCH SỬ</li>
-                                                                <li>Bàn ghế</li>
-                                                                <li>Bủ chén</li>
-                                                                <li>Đèn đường</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="list1" style="padding: 0 35px 0 70px;">
-                                                            <ul>
-                                                                <li class="title-menu">TOÁN HỌC</li>
-                                                                <li>Tủ bàn</li>
-                                                                <li>Bàn to</li>
-                                                                <li>Bàn salon</li>
-                                                                <li>Ghế đũi</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div  class="list1"  style="padding: 0 70px 0 35px;">
-                                                            <ul>
-                                                                <li class="title-menu" >VĂN HỌC</li>
-                                                                <li>Tủ bàn</li>
-                                                                <li>Bàn to</li>
-                                                                <li>bàn salon</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="list1">
-                                                            <ul>
-                                                                <li class="title-menu">CỬA HÀNG</li>
-                                                                <li>Tủ bàn </li>
-                                                                <li>Bàn to</li>
-                                                                <li>Bàn salon</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row no-gutters">
-                                                        <div class="list2">
-                                                            <ul>
-                                                                <li class="title-menu">TIN HỌC VĂN PHÒNG</li>
-                                                                <li>Bàn ghế</li>
-                                                                <li>Bủ chén</li>
-                                                                <li>Đèn đường</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="list2">
-                                                            <ul>
-                                                                <li class="title-menu">ĐIỆN TỬ ĐIỆN MÁY</li>
-                                                                <li>Bàn ghế</li>
-                                                                <li>Bủ chén</li>
-                                                                <li>Đèn đường</li>
-                                                                <li>Ghế đũi</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div  class="list2" style="margin-right: 20px;">
-                                                            <ul>
-                                                                <li class="title-menu">VĂN PHÒNG</li>
-                                                                <li>Bàn ghế</li>
-                                                                <li>Bủ chén</li>
-                                                                <li>Đèn đường</li>
-                                                            </ul>
-                                                        </div>
-                                                        <div class="list2">
-                                                            <ul>
-                                                                <li class="title-menu">ĐỒ VẬT</li>
-                                                                <li>Bàn ghế</li>
-                                                                <li>Bủ chén</li>
-                                                                <li>Bàn salon</li>
-                                                            </ul>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                        </div>
-                                    </div>
-
-
-
-                                    <!-- Optional JavaScript -->
-                                    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-                                    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-                                    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-                                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-                                </body>
-                                </html>
+</html>
